@@ -1,11 +1,11 @@
-// Approach 1 : Sorting -> Sort the array. If there is any duplicate element they will be adjacent. 
+/* Approach 1 : Sorting -> Sort the array. If there is any duplicate element they will be adjacent. 
 So we simply check if arr[i]= arr[i+1]. If it is true , then  we return  arr[i].
 Time Complexity:O(Nlogn + N)
 
 Reason: NlogN for sorting the array and O(N) for traversing through the array and checking if adjacent elements are equal or not.
 But this will distort the array.
 
-Space Complexity:O(1)
+Space Complexity:O(1) */
 
 #include <bits/stdc++.h>
 
@@ -35,9 +35,9 @@ int main()
 }
 
 
-//Approach 2: Using two ptr.
+/*Approach 2: Using two ptr.
 Time complexity: O(N). Since we traversed through the array only once.
-Space complexity: O(1).
+Space complexity: O(1). */
 
 #include <bits/stdc++.h>
 
